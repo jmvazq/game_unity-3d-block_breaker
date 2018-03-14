@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 91df00a292850a14499549f5f40ee853
+timeCreated: 1521053414
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - LivesUiText: {fileID: 114463541679024840, guid: 4af4a7a118bcdd14f95254fb474ea56d,
+      type: 2}
+  - GameOverUi: {fileID: 1393883724497322, guid: 14befa64877430a469cc170a7e6f8702,
+      type: 2}
+  - YouWonUi: {fileID: 1483486099046848, guid: 5616d326544d4a946bbbe30e05102900, type: 2}
+  - PaddlePrefab: {fileID: 1324098738932192, guid: 6c5b8cf044dbab947930454ca1e0c6ac,
+      type: 2}
+  - BricksGroup: {fileID: 1659701220838760, guid: 1b7c3d9e586dece40a28b109ce69b5df,
+      type: 2}
+  - BrickParticles: {fileID: 1586140331332792, guid: 37eb89a682b773f4f9d23b89f31232a0,
+      type: 2}
+  - DeathParticles: {fileID: 1195568721331086, guid: bf3607af3448a7e43a3f90825fde3ffd,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
