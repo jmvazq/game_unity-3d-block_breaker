@@ -148,14 +148,17 @@ public class GameManager : MonoBehaviour {
         UpdateLivesUIText();
 
         // Paddle is destroyed every time a life is lost, then is re-created
-        StartCoroutine(DestroyPaddle());
+        if (livesTotal > 0 && bricksTotal > 0)
+            StartCoroutine(DestroyPaddle());
 
         yield return new WaitForSeconds(resetDelay);
 
-        if (livesTotal > 0)
+        if (livesTotal > 0 && bricksTotal > 0)
+        {
             inputAllowed = true;
+            SetupPaddle();
+        }
 
-        SetupPaddle();
         CheckGameEnd();
     }
 
