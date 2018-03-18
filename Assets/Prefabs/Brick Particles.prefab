@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4387717231997858}
   - component: {fileID: 198690875249895254}
   - component: {fileID: 199778199029666612}
+  - component: {fileID: 114077200371339040}
   m_Layer: 0
   m_Name: Brick Particles
   m_TagString: Untagged
@@ -41,6 +42,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -180, y: 0, z: 0}
+--- !u!114 &114077200371339040
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1586140331332792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5599d470d52095048b21c8d29b3b43cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTime: 1
 --- !u!198 &198690875249895254
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -48,7 +61,7 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1586140331332792}
   serializedVersion: 5
-  lengthInSec: 0.5
+  lengthInSec: 0.35
   simulationSpeed: 1
   looping: 0
   prewarm: 0
@@ -758,8 +771,26 @@ ParticleSystem:
           outSlope: -1
           tangentMode: 0
         - serializedVersion: 2
-          time: 1
-          value: 0
+          time: 0.18397328
+          value: 0.48256713
+          inSlope: -0.6335974
+          outSlope: -0.6335974
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.5116592
+          value: 1
+          inSlope: 0.23290515
+          outSlope: 0.23290515
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.76551676
+          value: 0.21698016
+          inSlope: -1.6844273
+          outSlope: -1.6844273
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.98461914
+          value: 1
           inSlope: -1
           outSlope: -1
           tangentMode: 0
