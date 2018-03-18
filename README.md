@@ -1,5 +1,5 @@
 # Block Breaker Game
-## Made with Unity
+Made with Unity
 
 *Has a win screen, game over, and Lives counter. Only one level right now. Based on the Unity Breakout tutorial from 2015, but **using coroutines instead of invokes**.*
 
