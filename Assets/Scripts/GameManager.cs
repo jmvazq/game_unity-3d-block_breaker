@@ -119,6 +119,8 @@ public class GameManager : MonoBehaviour {
 
     IEnumerator RestartGame()
     {
+        yield return new WaitForSeconds(resetDelay);
+
         Time.timeScale = 1f;
 
         yield return null;
